@@ -1,0 +1,7 @@
+thisset = set(("Google", "Runoob", "Taobao"))
+thisset2 = set(["Google", "Runoob", "Taobao"])
+print(thisset == thisset2)
+thisset.update({1, 3})
+print(thisset)
+thisset.update([1, 4], [5, 6])
+print(thisset)
